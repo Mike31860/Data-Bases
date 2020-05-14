@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D329A006-47CD-2070-C3C9-AED2F85404AD" name="ClientesXProductos">
+<createdBy>aleja</createdBy>
+<createdTime>2019-10-26 20:36:20 UTC</createdTime>
+<ownerDesignName>modelo1</ownerDesignName>
+<engineerTo>
+<item key="0C9BF239-A6B6-5FD0-4C79-081B28621930" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="FDF30B9E-2017-A620-3F6F-69E558975089">
+<createdBy>aleja</createdBy>
+<createdTime>2019-10-26 20:36:31 UTC</createdTime>
+<ownerDesignName>modelo1</ownerDesignName>
+<engineerTo>
+<item key="0C9BF239-A6B6-5FD0-4C79-081B28621930" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FechaInicio" id="E4C904C1-1D31-B9BA-3644-A79C1CDC0C7A">
+<createdBy>aleja</createdBy>
+<createdTime>2019-10-26 20:41:11 UTC</createdTime>
+<ownerDesignName>modelo1</ownerDesignName>
+<engineerTo>
+<item key="0C9BF239-A6B6-5FD0-4C79-081B28621930" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FechaRetiro" id="E9E9E97F-C55F-4E14-D51A-C92D97BF4E03">
+<createdBy>aleja</createdBy>
+<createdTime>2019-10-26 20:41:33 UTC</createdTime>
+<ownerDesignName>modelo1</ownerDesignName>
+<engineerTo>
+<item key="0C9BF239-A6B6-5FD0-4C79-081B28621930" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cedula" id="B03C0369-93C1-E71E-8931-057D6B20757A">
+<createdBy>aleja</createdBy>
+<createdTime>2019-10-26 20:56:03 UTC</createdTime>
+<generatorID>5AFD6C7A-4BEB-533A-BC24-30067161936E</generatorID>
+<ownerDesignName>modelo1</ownerDesignName>
+<engineerTo>
+<item key="0C9BF239-A6B6-5FD0-4C79-081B28621930" value="true"/>
+</engineerTo>
+<referedAttribute>D15414E1-3C81-FF04-E457-0D75FBE0EDBA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Codigo" id="AC34D237-B01C-13CF-9665-53692222218F">
+<createdBy>aleja</createdBy>
+<createdTime>2019-10-26 20:56:17 UTC</createdTime>
+<generatorID>445244AB-EF13-6745-818C-E74833629CB4</generatorID>
+<ownerDesignName>modelo1</ownerDesignName>
+<engineerTo>
+<item key="0C9BF239-A6B6-5FD0-4C79-081B28621930" value="true"/>
+</engineerTo>
+<referedAttribute>D25F6DC4-490E-4ACB-1066-43A2E5766188</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E04CCC1F-E456-18FF-2F3B-5651E3C59815" name="Producto PK">
+<createdBy>aleja</createdBy>
+<createdTime>2019-10-26 20:41:29 UTC</createdTime>
+<ownerDesignName>modelo1</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="0C9BF239-A6B6-5FD0-4C79-081B28621930" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FDF30B9E-2017-A620-3F6F-69E558975089</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

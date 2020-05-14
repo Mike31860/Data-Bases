@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F37A6194-4E93-D683-9802-6526CFA03B80" name="Producto">
+<createdBy>aleja</createdBy>
+<createdTime>2019-10-26 20:42:05 UTC</createdTime>
+<ownerDesignName>modelo1</ownerDesignName>
+<engineerTo>
+<item key="0C9BF239-A6B6-5FD0-4C79-081B28621930" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Codigo" id="D25F6DC4-490E-4ACB-1066-43A2E5766188">
+<createdBy>aleja</createdBy>
+<createdTime>2019-10-26 20:42:33 UTC</createdTime>
+<ownerDesignName>modelo1</ownerDesignName>
+<engineerTo>
+<item key="0C9BF239-A6B6-5FD0-4C79-081B28621930" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Descripcion" id="524D59EC-A769-B9DF-ABB9-5FC3D4E9F897">
+<createdBy>aleja</createdBy>
+<createdTime>2019-10-26 20:42:56 UTC</createdTime>
+<ownerDesignName>modelo1</ownerDesignName>
+<engineerTo>
+<item key="0C9BF239-A6B6-5FD0-4C79-081B28621930" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="49C341FC-2FE7-88FD-06BE-0595F1B49C5E" name="Producto PK">
+<createdBy>aleja</createdBy>
+<createdTime>2019-10-26 20:42:55 UTC</createdTime>
+<ownerDesignName>modelo1</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="0C9BF239-A6B6-5FD0-4C79-081B28621930" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D25F6DC4-490E-4ACB-1066-43A2E5766188</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

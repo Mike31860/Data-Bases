@@ -1,0 +1,223 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="72B140BC-2639-566A-4A7B-15418D5C091F" name="Solicitud">
+<createdBy>1007554028</createdBy>
+<createdTime>2019-11-13 20:45:09 UTC</createdTime>
+<generatorID>FC8EFCB8-B1E1-88D2-9C81-3C4C44EDB9ED</generatorID>
+<ownerDesignName>modelo1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Codigo" id="B78A7A35-C351-4C31-7509-6C381D76B2D9">
+<createdBy>1007554028</createdBy>
+<createdTime>2019-11-13 20:45:09 UTC</createdTime>
+<generatorID>37002DD0-23FC-36B7-4F6B-20D4FC803398</generatorID>
+<ownerDesignName>modelo1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Observacion" id="164546CC-5EBD-8A65-5C52-DEEF8EBC3509">
+<createdBy>1007554028</createdBy>
+<createdTime>2019-11-13 20:45:09 UTC</createdTime>
+<generatorID>470CB34B-36C9-82DA-E122-86FCAC14F1E0</generatorID>
+<ownerDesignName>modelo1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TipoAnomalia" id="5EDF0B8F-DFA0-7744-628B-AE91CC9ED2EB">
+<createdBy>1007554028</createdBy>
+<createdTime>2019-11-13 20:45:09 UTC</createdTime>
+<generatorID>619AFB75-CA54-A2EF-DA5E-1F0557CF92D3</generatorID>
+<ownerDesignName>modelo1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Estado" id="1F568B95-D16A-C1B9-9971-021A61B65321">
+<createdBy>1007554028</createdBy>
+<createdTime>2019-11-13 20:45:09 UTC</createdTime>
+<generatorID>2C5BA023-24CC-F001-4CB3-F8E6EC082405</generatorID>
+<ownerDesignName>modelo1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Clientes_Cedula" id="C07A66F1-25EF-99DF-3113-0A472747EBF7">
+<createdBy>1007554028</createdBy>
+<createdTime>2019-11-13 20:45:09 UTC</createdTime>
+<generatorID>9F56A5C7-7652-3F68-EC3B-9D58EA0DB936</generatorID>
+<ownerDesignName>modelo1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B5D1139F-4D45-3EE9-6CCF-07224CA76F5C" referredColumn="47794A4A-0437-C1E1-96D5-4BB038F74847"/>
+</associations>
+</Column>
+<Column name="Funcionario_Cedula" id="40A6A546-F8C4-5800-1285-4B1D62439069">
+<createdBy>1007554028</createdBy>
+<createdTime>2019-11-13 20:45:09 UTC</createdTime>
+<generatorID>690F4608-5F52-AF5E-0DCC-1DA4C16220C1</generatorID>
+<ownerDesignName>modelo1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DFD2EDEF-49E4-EB6C-4194-FD24454C21A5" referredColumn="117B82D7-9ADE-810E-0D74-597EAC614D73"/>
+</associations>
+</Column>
+<Column name="TipoSolicitud_Codigo" id="9EB99B91-2EC3-8256-4F3F-3E5552A02133">
+<createdBy>1007554028</createdBy>
+<createdTime>2019-11-13 20:45:09 UTC</createdTime>
+<generatorID>14B5A466-CFC6-9D02-1DDA-4BEB79DB675B</generatorID>
+<ownerDesignName>modelo1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A9CC3845-ADFC-12E9-6B65-64A4FD89045D" referredColumn="D85F69C8-84D8-AA31-F9DC-64393DC74B44"/>
+</associations>
+</Column>
+<Column name="FechaAtencion" id="898F0119-9B5E-00EF-1A94-79389BC367BD">
+<createdBy>1007554028</createdBy>
+<createdTime>2019-11-13 20:45:09 UTC</createdTime>
+<generatorID>D6AB9B8F-B753-E133-BF0B-3EE9678BC60E</generatorID>
+<ownerDesignName>modelo1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FechaAsignacion" id="850FD774-2320-C8E6-D241-7201DE4BD3E3">
+<createdBy>1007554028</createdBy>
+<createdTime>2019-11-13 20:45:09 UTC</createdTime>
+<generatorID>59488934-3E3A-FCFA-A6F6-182B7252B316</generatorID>
+<ownerDesignName>modelo1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ClientesXProductos_Id" id="E31FF2B9-B40D-2DBE-3636-38B948E424E8">
+<createdBy>1007554028</createdBy>
+<createdTime>2019-11-13 20:45:09 UTC</createdTime>
+<generatorID>77CE4E01-41E6-4067-C8D0-0DB6D4547D3B</generatorID>
+<ownerDesignName>modelo1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A76E34B1-6B12-4B28-BF29-0D95A2B89D25" referredColumn="59AEEDB9-E222-0AC7-2607-FAC9B3B08753"/>
+</associations>
+</Column>
+<Column name="TipoProducto" id="876E5C04-C6B1-6CB4-934E-2D4E94EF9C2B">
+<createdBy>1007554028</createdBy>
+<createdTime>2019-11-13 20:45:09 UTC</createdTime>
+<generatorID>05E44D8B-EEBA-6AFA-4661-5D22D81CC6F7</generatorID>
+<ownerDesignName>modelo1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="31EA2BF0-E64B-D8AF-EAD7-65D7B9E493CE" name="Solicitud_PK">
+<createdBy>1007554028</createdBy>
+<createdTime>2019-11-13 20:45:09 UTC</createdTime>
+<generatorID>4CED3C97-B636-64EC-2F6F-A4D28981FB3C</generatorID>
+<ownerDesignName>modelo1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B78A7A35-C351-4C31-7509-6C381D76B2D9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="736EA9AA-0F3F-AB70-7E26-C7414B226557" name="Solicitud_Funcionario_FK">
+<createdBy>1007554028</createdBy>
+<createdTime>2019-11-13 20:45:10 UTC</createdTime>
+<generatorID>2F5ABB6F-88C8-DF9D-0E60-AA3FC118F840</generatorID>
+<ownerDesignName>modelo1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="40A6A546-F8C4-5800-1285-4B1D62439069"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5CB0B85E-3A67-B9B7-9A69-D5E90929E627" name="Solicitud_TipoSolicitud_FK">
+<createdBy>1007554028</createdBy>
+<createdTime>2019-11-13 20:45:10 UTC</createdTime>
+<generatorID>61FBA019-967B-3DAA-5601-A4C79C22ABF0</generatorID>
+<ownerDesignName>modelo1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9EB99B91-2EC3-8256-4F3F-3E5552A02133"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E34DC917-5255-3587-0E7D-189B7379A63C" name="Solicitud_ClieXPr_FK">
+<createdBy>1007554028</createdBy>
+<createdTime>2019-11-13 20:45:10 UTC</createdTime>
+<generatorID>54323128-935E-73D8-60B6-EDB16E667A0E</generatorID>
+<ownerDesignName>modelo1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E31FF2B9-B40D-2DBE-3636-38B948E424E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="37326628-E645-0C4F-EFCB-BE023D4758E8" name="Solicitud_Clientes_FK">
+<createdBy>1007554028</createdBy>
+<createdTime>2019-11-13 20:45:10 UTC</createdTime>
+<generatorID>622A94BD-CB11-07AF-2EE6-DC1B83E2EEE0</generatorID>
+<ownerDesignName>modelo1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C07A66F1-25EF-99DF-3113-0A472747EBF7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

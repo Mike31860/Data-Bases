@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7EEAC7D0-F5A6-ACB6-2F97-D05DA351CA11" name="Clientes">
+<createdBy>aleja</createdBy>
+<createdTime>2019-10-26 20:27:43 UTC</createdTime>
+<ownerDesignName>modelo1</ownerDesignName>
+<engineerTo>
+<item key="0C9BF239-A6B6-5FD0-4C79-081B28621930" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Nombre" id="6F3EE727-F440-529D-9824-D04ADD92E640">
+<createdBy>aleja</createdBy>
+<createdTime>2019-10-26 20:28:03 UTC</createdTime>
+<ownerDesignName>modelo1</ownerDesignName>
+<engineerTo>
+<item key="0C9BF239-A6B6-5FD0-4C79-081B28621930" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cedula" id="D15414E1-3C81-FF04-E457-0D75FBE0EDBA">
+<createdBy>aleja</createdBy>
+<createdTime>2019-10-26 20:28:30 UTC</createdTime>
+<ownerDesignName>modelo1</ownerDesignName>
+<engineerTo>
+<item key="0C9BF239-A6B6-5FD0-4C79-081B28621930" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FechaNacimiento" id="D8472029-B522-69ED-EE1D-7B4F0ADABA81">
+<createdBy>aleja</createdBy>
+<createdTime>2019-10-26 20:30:03 UTC</createdTime>
+<ownerDesignName>modelo1</ownerDesignName>
+<engineerTo>
+<item key="0C9BF239-A6B6-5FD0-4C79-081B28621930" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Telefono" id="910F128E-EADA-AB08-78F1-84E678738420">
+<createdBy>aleja</createdBy>
+<createdTime>2019-10-26 20:31:12 UTC</createdTime>
+<ownerDesignName>modelo1</ownerDesignName>
+<engineerTo>
+<item key="0C9BF239-A6B6-5FD0-4C79-081B28621930" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Direccion" id="E17AAB20-405F-79C5-AE33-3EC995DFDD0A">
+<createdBy>aleja</createdBy>
+<createdTime>2019-10-26 20:31:50 UTC</createdTime>
+<ownerDesignName>modelo1</ownerDesignName>
+<engineerTo>
+<item key="0C9BF239-A6B6-5FD0-4C79-081B28621930" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C0A4260E-830D-36C3-97F8-6FEA54CEC2D7" name="Clientes PK">
+<createdBy>aleja</createdBy>
+<createdTime>2019-10-26 20:29:05 UTC</createdTime>
+<ownerDesignName>modelo1</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="0C9BF239-A6B6-5FD0-4C79-081B28621930" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D15414E1-3C81-FF04-E457-0D75FBE0EDBA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

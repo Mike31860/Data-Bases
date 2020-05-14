@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="13CEFB7E-1CAE-14A7-55AE-48906047C2C7" name="Clientes">
+<createdBy>1007554028</createdBy>
+<createdTime>2019-11-13 20:45:09 UTC</createdTime>
+<generatorID>7EEAC7D0-F5A6-ACB6-2F97-D05DA351CA11</generatorID>
+<ownerDesignName>modelo1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Nombre" id="7D690BFD-3200-D2B5-1A3B-D19564044F3C">
+<createdBy>1007554028</createdBy>
+<createdTime>2019-11-13 20:45:09 UTC</createdTime>
+<generatorID>6F3EE727-F440-529D-9824-D04ADD92E640</generatorID>
+<ownerDesignName>modelo1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cedula" id="47794A4A-0437-C1E1-96D5-4BB038F74847">
+<createdBy>1007554028</createdBy>
+<createdTime>2019-11-13 20:45:09 UTC</createdTime>
+<generatorID>D15414E1-3C81-FF04-E457-0D75FBE0EDBA</generatorID>
+<ownerDesignName>modelo1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FechaNacimiento" id="B26D14F5-94E4-7D12-C621-51EC264553D7">
+<createdBy>1007554028</createdBy>
+<createdTime>2019-11-13 20:45:09 UTC</createdTime>
+<generatorID>D8472029-B522-69ED-EE1D-7B4F0ADABA81</generatorID>
+<ownerDesignName>modelo1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telefono" id="073C7AEB-C6ED-7B79-BB60-3443846D6C51">
+<createdBy>1007554028</createdBy>
+<createdTime>2019-11-13 20:45:09 UTC</createdTime>
+<generatorID>910F128E-EADA-AB08-78F1-84E678738420</generatorID>
+<ownerDesignName>modelo1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Direccion" id="718B0EA0-96AC-B584-22EB-29603288EF11">
+<createdBy>1007554028</createdBy>
+<createdTime>2019-11-13 20:45:09 UTC</createdTime>
+<generatorID>E17AAB20-405F-79C5-AE33-3EC995DFDD0A</generatorID>
+<ownerDesignName>modelo1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="74DFDDA2-186D-C0D2-4486-1FEF6517413B" name="Clientes_PK">
+<createdBy>1007554028</createdBy>
+<createdTime>2019-11-13 20:45:09 UTC</createdTime>
+<generatorID>C0A4260E-830D-36C3-97F8-6FEA54CEC2D7</generatorID>
+<ownerDesignName>modelo1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="47794A4A-0437-C1E1-96D5-4BB038F74847"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

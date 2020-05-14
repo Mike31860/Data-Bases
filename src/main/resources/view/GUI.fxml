@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="337.0" prefWidth="556.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Controller">
+   <children>
+      <TabPane prefHeight="337.0" prefWidth="556.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab text="Creación">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="314.0" prefWidth="528.0">
+                     <children>
+                        <TextArea fx:id="creacionObs" layoutX="309.0" layoutY="54.0" prefHeight="200.0" prefWidth="200.0" />
+                        <TextField fx:id="creacionCedula" layoutX="76.0" layoutY="86.0" />
+                        <ComboBox fx:id="creacionProd" layoutX="76.0" layoutY="167.0" prefWidth="150.0" />
+                        <Label layoutX="108.0" layoutY="69.0" text="Cédula del cliente" />
+                        <Label layoutX="110.0" layoutY="150.0" text="Tipo de producto" />
+                        <Label layoutX="376.0" layoutY="37.0" text="Observación" />
+                        <Button fx:id="creacionListo" layoutX="130.0" layoutY="242.0" mnemonicParsing="false" onAction="#creacionListo" text="Listo" />
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+          <Tab text="Modificación">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <TextField fx:id="modifCedula" layoutX="204.0" layoutY="75.0" />
+                        <ChoiceBox fx:id="modifProducto1" layoutX="204.0" layoutY="135.0" prefWidth="150.0" />
+                        <Label layoutX="234.0" layoutY="58.0" text="Cédula del cliente" />
+                        <Label layoutX="234.0" layoutY="119.0" text="Tipo de producto" />
+                        <Button fx:id="modifListo" layoutX="260.0" layoutY="260.0" mnemonicParsing="false" onAction="#modifListo" text="Listo" />
+                        <Label layoutX="236.0" layoutY="178.0" text="Nuevo Producto" />
+                        <ChoiceBox fx:id="modifProducto2" layoutX="203.0" layoutY="195.0" prefWidth="150.0" />
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+            <Tab text="Cancelación">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <TextArea fx:id="cancelObs" layoutX="351.0" layoutY="72.0" prefHeight="164.0" prefWidth="168.0" />
+                        <TextField fx:id="cancelCedula" layoutX="105.0" layoutY="104.0" />
+                        <Label layoutX="132.0" layoutY="88.0" text="Cédula del cliente" />
+                        <Label layoutX="402.0" layoutY="55.0" text="Observación" />
+                        <Button fx:id="cancelListo" layoutX="267.0" layoutY="259.0" mnemonicParsing="false" onAction="#cancelListo" text="Listo" />
+                        <Label layoutX="155.0" layoutY="158.0" text="Producto" />
+                        <ComboBox fx:id="cancelProducto" layoutX="105.0" layoutY="175.0" prefWidth="150.0" />
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+            <Tab text="Daño">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <TextField fx:id="danioCedula" layoutX="71.0" layoutY="79.0" />
+                        <TextArea fx:id="danioObs" layoutX="309.0" layoutY="54.0" prefHeight="200.0" prefWidth="200.0" />
+                        <ComboBox fx:id="danioProd" layoutX="71.0" layoutY="142.0" prefWidth="150.0" />
+                        <TextField fx:id="danioTipoAnom" layoutX="72.0" layoutY="207.0" />
+                        <Label layoutX="99.0" layoutY="62.0" text="Cédula del cliente" />
+                        <Label layoutX="122.0" layoutY="125.0" text="Producto" />
+                        <Label layoutX="101.0" layoutY="190.0" text="Tipo de anomalía" />
+                        <Label layoutX="376.0" layoutY="37.0" text="Observación" />
+                        <Button fx:id="danioListo" layoutX="245.0" layoutY="262.0" mnemonicParsing="false" onAction="#danioListo" text="Listo" />
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+            <Tab text="Reclamo">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Button fx:id="recListo" layoutX="258.0" layoutY="263.0" mnemonicParsing="false" onAction="#recListo" text="Listo" />
+                        <TextField fx:id="RecCedula" layoutX="96.0" layoutY="90.0" />
+                        <ComboBox fx:id="RecProd" layoutX="96.0" layoutY="163.0" prefWidth="150.0" />
+                        <TextArea fx:id="recObs" layoutX="308.0" layoutY="74.0" prefHeight="160.0" prefWidth="199.0" />
+                        <Label layoutX="124.0" layoutY="74.0" text="Cédula del cliente" />
+                        <Label layoutX="146.0" layoutY="146.0" text="Producto" />
+                        <Label layoutX="375.0" layoutY="57.0" text="Observación" />
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>
